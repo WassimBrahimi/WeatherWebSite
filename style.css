@@ -1,0 +1,71 @@
+.bg{
+margin-top: 5%;
+ height: 500px;
+ box-align: center;
+ background-color: rgba(255, 255, 255, 0.452);
+ padding: 5%;
+ border-radius: 6px;
+}
+input[type=text], select, textarea {
+    background-color: rgba(255, 255, 255, 0.452);
+    width: 22%;
+    border-radius: 1px;
+    padding: 7px;
+    border: none;
+    resize: vertical;
+    margin-left:75%;
+
+}
+#temp{
+    font-size: 600%;
+    position: absolute;
+    left: 120px;
+    top: 64%;
+}
+#city{
+    font-size: 300%;
+    position: absolute;
+    left: 260px;
+    top: 70%;   
+}
+#wicon{
+    width: 160px;
+    position: absolute;
+    left: 290px;
+    top: 50%;
+}
+#fl{
+    font-weight: bolder;
+    font-size: 100%;
+    position: absolute;
+    left: 120px;
+    top: 28%;
+}
+#hum{
+    font-weight: bold;
+    font-size: 100%;
+    position: absolute;
+    left: 120px;
+    top: 36%;   
+}
+#ws{    
+    font-weight: bold;
+    font-size: 100%;
+    position: absolute;
+    left: 120px;
+    top: 44%;   
+}
+#lat{
+    font-weight: bold;
+    font-size: 100%;
+    position: absolute;
+    left: 400px;
+    top: 32%;   
+}
+#lon{
+    font-weight: bold;
+    font-size: 100%;
+    position: absolute;
+    left: 400px;
+    top: 40%;   
+}
