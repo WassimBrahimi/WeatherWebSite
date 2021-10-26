@@ -1,7 +1,9 @@
 .bg{
-margin-top: 5%;
+ top: 9%;
+ left: 7%;
  height: 500px;
- box-align: center;
+ width: 85%;
+ position: absolute;
  background-color: rgba(255, 255, 255, 0.452);
  padding: 5%;
  border-radius: 6px;
@@ -19,53 +21,53 @@ input[type=text], select, textarea {
 #temp{
     font-size: 600%;
     position: absolute;
-    left: 120px;
+    left: 9%;
     top: 64%;
 }
 #city{
     font-size: 300%;
     position: absolute;
-    left: 260px;
+    left: 22%;
     top: 70%;   
 }
 #wicon{
     width: 160px;
     position: absolute;
-    left: 290px;
+    left: 25%;
     top: 50%;
 }
 #fl{
     font-weight: bolder;
     font-size: 100%;
     position: absolute;
-    left: 120px;
+    left: 9%;
     top: 28%;
 }
 #hum{
     font-weight: bold;
     font-size: 100%;
     position: absolute;
-    left: 120px;
+    left: 9%;
     top: 36%;   
 }
 #ws{    
     font-weight: bold;
     font-size: 100%;
     position: absolute;
-    left: 120px;
+    left: 9%;
     top: 44%;   
 }
 #lat{
     font-weight: bold;
     font-size: 100%;
     position: absolute;
-    left: 400px;
+    left: 35%;
     top: 32%;   
 }
 #lon{
     font-weight: bold;
     font-size: 100%;
     position: absolute;
-    left: 400px;
+    left: 35%;
     top: 40%;   
 }
