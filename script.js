@@ -2,8 +2,7 @@ if (new Date().getHours() < 18 || new Date().getHours() < 6 ) {
     document.body.style.backgroundImage = "url('morning.jpeg')"
   }
   else{
-    document.body.style.backgroundImage = "url('night.jpeg')"
-  }
+    document.body.style.backgroundImage = "url('night.jpeg')"}
   $(document).ready(function(){
     $("#search").on("keyup",function(v){
       var name=v.target.value
